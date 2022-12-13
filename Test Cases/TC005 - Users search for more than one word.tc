@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC004 - Set reminde</name>
+   <name>TC005 - Users search for more than one word</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>5c01e9d5-9b39-48a5-823b-abdd97194b00</testCaseGuid>
+   <testCaseGuid>a0c6efe0-6b2a-4362-bdfa-45229b57e36c</testCaseGuid>
 </TestCaseEntity>
