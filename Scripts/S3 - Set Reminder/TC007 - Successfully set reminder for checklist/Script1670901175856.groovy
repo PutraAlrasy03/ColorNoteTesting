@@ -19,19 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\diana\\Downloads\\com.socialnmobile.dictapps.notepad.color.note_2022-10-26.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.Button - SKIP'), 0)
+Mobile.tap(findTestObject('Object Repository/S2 - Search/TC004/android.widget.Button - SKIP'), 0)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.ImageButton'), 0)
+Mobile.tap(findTestObject('Object Repository/S3 - Set Reminder/TC007/android.widget.ImageView'), 0)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.TextView - Checklist'), 0)
+Mobile.tap(findTestObject('Object Repository/S3 - Set Reminder/TC007/android.view.View'), 0)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/S3 - Set Reminder/TC007/android.widget.TextView - Add'), 0)
 
-Mobile.setText(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.EditText'), 'bangun', 0)
+Mobile.tap(findTestObject('Object Repository/S3 - Set Reminder/TC007/android.widget.TextView - Checklist'), 0)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.Button - OK'), 0)
+Mobile.tap(findTestObject('Object Repository/S3 - Set Reminder/TC007/android.widget.TextView - Add Item'), 0)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.ImageButton (1)'), 0)
+Mobile.setText(findTestObject('Object Repository/S3 - Set Reminder/TC007/android.widget.EditText'), 'Check', 0)
+
+Mobile.tap(findTestObject('Object Repository/S3 - Set Reminder/TC007/android.widget.Button - OK'), 0)
+
+Mobile.tap(findTestObject('Object Repository/S3 - Set Reminder/TC007/android.widget.ImageButton'), 0)
 
 Mobile.pressBack()
 

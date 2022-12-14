@@ -19,21 +19,31 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\diana\\Downloads\\com.socialnmobile.dictapps.notepad.color.note_2022-10-26.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.Button - SKIP'), 0)
+Mobile.tap(findTestObject('Object Repository/S5 - Delete/TC013/android.widget.Button - SKIP'), 0)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.ImageButton'), 0)
+Mobile.tap(findTestObject('Object Repository/S5 - Delete/TC013/android.widget.FrameLayout'), 0)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.TextView - Checklist'), 0)
+Mobile.tap(findTestObject('Object Repository/S5 - Delete/TC013/android.widget.TextView - Checklist'), 0)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/S5 - Delete/TC013/android.widget.TextView - Add Item'), 0)
 
-Mobile.setText(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.EditText'), 'bangun', 0)
+Mobile.setText(findTestObject('Object Repository/S5 - Delete/TC013/android.widget.EditText'), 'Hello world', 0)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.Button - OK'), 0)
+Mobile.tap(findTestObject('Object Repository/S5 - Delete/TC013/android.widget.Button - OK'), 0)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.ImageButton (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/S5 - Delete/TC013/android.widget.ImageButton'), 0)
 
 Mobile.pressBack()
+
+Mobile.tap(findTestObject('Object Repository/S5 - Delete/TC013/android.widget.TextView - (12142022)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/S5 - Delete/TC013/android.widget.ImageButton (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/S5 - Delete/TC013/android.widget.TextView - Delete'), 0)
+
+Mobile.tap(findTestObject('Object Repository/S5 - Delete/TC013/android.widget.Button - OK (1)'), 0)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/S5 - Delete/TC013/android.widget.ListView'), 0)
 
 Mobile.closeApplication()
 

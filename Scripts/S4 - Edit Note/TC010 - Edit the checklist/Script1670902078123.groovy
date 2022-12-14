@@ -19,19 +19,33 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\diana\\Downloads\\com.socialnmobile.dictapps.notepad.color.note_2022-10-26.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.Button - SKIP'), 0)
+Mobile.tap(findTestObject('Object Repository/S4 - Edit note/TC010/android.widget.Button - SKIP'), 0)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.ImageButton'), 0)
+Mobile.tap(findTestObject('Object Repository/S4 - Edit note/TC010/android.widget.ImageButton'), 0)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.TextView - Checklist'), 0)
+Mobile.tap(findTestObject('Object Repository/S4 - Edit note/TC010/android.widget.TextView - Checklist'), 0)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/S4 - Edit note/TC010/android.widget.TextView - Add Item'), 0)
 
-Mobile.setText(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.EditText'), 'bangun', 0)
+Mobile.setText(findTestObject('Object Repository/S4 - Edit note/TC010/android.widget.EditText'), 'Belum makan', 0)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.Button - OK'), 0)
+Mobile.tap(findTestObject('Object Repository/S4 - Edit note/TC010/android.widget.Button - OK'), 0)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.ImageButton (1)'), 0)
+Mobile.pressBack()
+
+Mobile.pressBack()
+
+Mobile.tap(findTestObject('Object Repository/S4 - Edit note/TC010/android.widget.TextView - (12132022)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/S4 - Edit note/TC010/android.widget.ImageButton (1)'), 0)
+
+Mobile.tap(findTestObject('S4 - Edit note/TC010/android.widget.TextView - Add Item'), 0)
+
+Mobile.setText(findTestObject('S4 - Edit note/TC010/android.widget.EditText'), 'Dah Makan', 0)
+
+Mobile.tap(findTestObject('S4 - Edit note/TC010/android.widget.Button - OK'), 0)
+
+Mobile.pressBack()
 
 Mobile.pressBack()
 

@@ -19,21 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\diana\\Downloads\\com.socialnmobile.dictapps.notepad.color.note_2022-10-26.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.Button - SKIP'), 0)
+Mobile.tap(findTestObject('Object Repository/S5 - Delete/TC012/android.widget.Button - SKIP (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.ImageButton'), 0)
+Mobile.tap(findTestObject('Object Repository/S5 - Delete/TC012/android.widget.FrameLayout (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.TextView - Checklist'), 0)
+Mobile.tap(findTestObject('Object Repository/S5 - Delete/TC012/android.widget.LinearLayout'), 0)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.ImageView'), 0)
+Mobile.setText(findTestObject('Object Repository/S5 - Delete/TC012/android.widget.EditText (1)'), 'Hello World', 0)
 
-Mobile.setText(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.EditText'), 'bangun', 0)
-
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.Button - OK'), 0)
-
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.ImageButton (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/S5 - Delete/TC012/android.widget.ImageButton (2)'), 0)
 
 Mobile.pressBack()
+
+Mobile.tap(findTestObject('Object Repository/S5 - Delete/TC012/android.widget.TextView - Hello World'), 0)
+
+Mobile.tap(findTestObject('Object Repository/S5 - Delete/TC012/android.widget.ImageButton (3)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/S5 - Delete/TC012/android.widget.TextView - Delete (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/S5 - Delete/TC012/android.widget.Button - OK (1)'), 0)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/S5 - Delete/TC012/android.widget.ListView'), 0)
 
 Mobile.closeApplication()
 

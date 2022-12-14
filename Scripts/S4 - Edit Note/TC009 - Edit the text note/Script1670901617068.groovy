@@ -19,21 +19,31 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\diana\\Downloads\\com.socialnmobile.dictapps.notepad.color.note_2022-10-26.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.Button - SKIP'), 0)
+Mobile.tap(findTestObject('Object Repository/S4 - Edit note/TC009/android.widget.Button - SKIP'), 0)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.ImageButton'), 0)
+Mobile.tap(findTestObject('Object Repository/S4 - Edit note/TC009/android.widget.ImageButton'), 0)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.TextView - Checklist'), 0)
+Mobile.tap(findTestObject('Object Repository/S4 - Edit note/TC009/android.widget.LinearLayout'), 0)
 
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.ImageView'), 0)
+Mobile.setText(findTestObject('Object Repository/S4 - Edit note/TC009/android.widget.EditText'), 'Test', 0)
 
-Mobile.setText(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.EditText'), 'bangun', 0)
-
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.Button - OK'), 0)
-
-Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC002/android.widget.ImageButton (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/S4 - Edit note/TC009/android.widget.ImageButton (1)'), 0)
 
 Mobile.pressBack()
+
+Mobile.tap(findTestObject('Object Repository/S4 - Edit note/TC009/android.widget.TextView - Test'), 0)
+
+Mobile.tap(findTestObject('Object Repository/S4 - Edit note/TC009/android.widget.ImageButton (2)'), 0)
+
+Mobile.setText(findTestObject('Object Repository/S4 - Edit note/TC009/android.widget.EditText - Test'), 'Testbits', 0)
+
+Mobile.pressBack()
+
+Mobile.pressBack()
+
+Mobile.pressBack()
+
+Mobile.verifyElementExist(findTestObject('Object Repository/S4 - Edit note/TC009/android.widget.TextView - Testbits'), 0)
 
 Mobile.closeApplication()
 

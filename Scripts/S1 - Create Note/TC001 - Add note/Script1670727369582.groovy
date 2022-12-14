@@ -19,19 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\diana\\Downloads\\com.socialnmobile.dictapps.notepad.color.note_2022-10-26.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/TC001/android.widget.ImageButton'), 0)
+Mobile.tap(findTestObject('Object Repository/S5 - Delete/TC013/android.widget.Button - SKIP'), 0)
 
-Mobile.tap(findTestObject('Object Repository/TC001/android.widget.TextView - Text'), 0)
+Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC001/android.widget.ImageButton'), 0)
 
-Mobile.setText(findTestObject('TC001/android.widget.EditText'), 'hye', 0)
+Mobile.tap(findTestObject('Object Repository/S1 - Create Note/TC001/android.widget.TextView - Text'), 0)
+
+Mobile.setText(findTestObject('S1 - Create Note/TC001/android.widget.EditText'), 'hye', 0)
+
+Mobile.pressBack()
 
 Mobile.pressBack()
 
 Mobile.pressBack()
 
-Mobile.pressBack()
-
-Mobile.verifyElementExist(findTestObject('Object Repository/TC001/android.widget.TextView - hye'), 0)
+Mobile.verifyElementExist(findTestObject('Object Repository/S1 - Create Note/TC001/android.widget.TextView - hye'), 0)
 
 Mobile.closeApplication()
 
